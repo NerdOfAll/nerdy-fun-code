@@ -1,3 +1,4 @@
+
 #sticky_scroll_bar{
     display: grid;
     grid-template-columns: 85% 15%;
@@ -14,6 +15,14 @@
 #Top_Title{
     text-align: center;
     padding: 0%;
+}
+
+#slogan{
+    margin: 0%;
+}
+
+#Image_and_Text{
+    border-bottom: 2px solid lightgrey;
 }
 
 #person_img{
@@ -46,5 +55,23 @@ a{
     text-decoration: none;
 }
 #img_link{
-    padding: 2%;
+    padding: 3%;
+}
+
+#italic{
+    font-style: italic;
+}
+
+#link{
+    color: #1a73e8;
+}
+
+.external-link svg {
+    padding-left: 0.25em;
+    margin-right: -0.25em;
+    position: relative;
+    flex-shrink: 0;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.1em;
 }

@@ -8,7 +8,7 @@
         <script src="SCG_Website.js"></script>
     </head>
 
-    <body>
+    <body onload="setup()">
         <div id="sticky_scroll_bar">
             <div id="socials">
                 <!-- Discord -->
@@ -33,14 +33,14 @@
                 </a>
                 <!-- LinkedIn -->
                 <a id="img_link" href="https://www.linkedin.com/company/sanderson-collectors-guild/" target="_blank" alt="Our LinkedIn">
-                    <img width="24" height="24" src="https://cdn.simpleicons.org/linkedin/0077B5" />
+                    <img width="24" height="24" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg"/>
                 </a>
             </div>
 
             <div id="donations">
                 <!-- Amazon -->
                 <a id="img_link" href="https://a.co/dDkpBpG" target="_blank" alt="Purchase from our Amazon Wishlist">
-                    <img width="24" height="24" src="https://cdn.simpleicons.org/amazon/000000" />
+                    <img width="24" height="24" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/amazon.svg" />
                 </a>
                 <!-- PayPal -->
                 <a id="img_link" href="https://www.paypal.com/donate/?hosted_button_id=F8B7FULZUXCC8" target="_blank" alt="Donate to Us via PayPal">
@@ -104,43 +104,59 @@
                 <div id="about_and_store_sections">
                     <div id="about_section">
                         <h2 id="about_title">About Us!</h2>
-                        <p id="about_blurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p id="about_blurb">The Sanderson Collectors Guild (“SCG”) is a non-profit corporation focused on educating people about collecting works and items by <a id="link" href="https://www.brandonsanderson.com" target="_blank">Brandon Sanderson</a>.</p>
+                        <p>What started as a small facebook group in late 2018 has grown over the years into a several-thousand member community spread across the entire globe. Run by a small group of dedicated collectors, the Sanderson Collectors Guild is here to help you on your collecting journey, whether you’re just starting off or hunting for that one elusive edition.</p>
+                        <h4 id="nonprofit_title">Non-Profit</h4>
+                        <p id="nonprofit_blurb">The Sanderson Collectors Guild is a 501(c)(3) non-profit in the United States of America (determination pending). Our EIN is 39-2747328.</p>
                         <!-- maybe a cute little picture of Stanthamortis goes here? -->
                     </div>
-
+                    <br>
                     <div id="store_promo">
                         <h2 id="store_title">Our Store!</h2>
-                        <p id="about_blurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a id="link" href="https://coppermind.net/wiki/Feruchemy" target="_blank">TESTER FOR LINK INSERTION</a> nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p id="about_blurb">Help support us by purchasing branded swag. All proceeds are rolled back in to the organization to fund future projects. Our store is not open for business yet!</p>
+                        <p><a id="link" href="https://store.sandersoncollectorsguild.com" target="_blank">Browse our store here: https://store.sandersoncollectorsguild.com</a></p>
                         <!-- I need to put an image here and make it rotate. Images will be of merch -->
                     </div>
                 </div> <!-- End about and store section -->
 
                 <div id="project_section">
                     <h2 id="projects_title">Projects</h2>
+                    
                     <h4 id="sub-catigory">CollectingSanderson.com</h4><!-- This will need to link to the website -->
-                    <p>stuuuuuuuuuuuuuuuuuuuuuuuuuuuuffffffffffffff</p>
+                    <p><a id="link" href="https://collectingsanderson.com" target="_blank">CollectingSanderson.com</a> is an in-depth database of most known editions of Brandon Sanderson’s books. Stretching all the way back to before his first published works, it includes information on pre-release, foreign, and even illegal editions.</p>
+                    
                     <h4 id="sub-catigory">Brandon Blue Book</h4><!-- This will need to link to the pdf -->
-                    <p>stuuuuuuuuuuuuuuuuuuuuuuuuuuuuffffffffffffff</p>
+                    <p>The Brandon Blue Book is a continuously-updated compendium of last-known sales data for Brandon’s books on the open market. When looking to buy or sell, it is a valuable resource for gauging what the market currently believes a reasonable price for the item should be.</p>
+                    <p><a id="link" href="https://collectingsanderson.com/BrandonBlueBook.pdf" target="_blank">View the latest edition here: BrandonBlueBook.pdf</a></p>
+                    
                     <h4 id="sub-catigory">Dragonsteel Nexus Booth</h4>
-                    <p>stuuuuuuuuuuuuuuuuuuuuuuuuuuuuffffffffffffff</p>
+                    <p>The Sanderson Collectors Guild has been a consistent exhibitor at every single convention run by Brandon and Dragonsteel, Inc. Our booth serves as a nexus for casual and avid collectors, often selling rare editions or freely giving away collecting information and advice to all convention goers. Look for us at this year’s convention!</p>
+                    
                     <h4 id="sub-catigory">SCG Discord</h4>
-                    <p>stuuuuuuuuuuuuuuuuuuuuuuuuuuuuffffffffffffff</p>
+                    <p>The Sanderson Collectors Guild discord hosts thousands of collectors from around the world. There are educational resources, in-depth discussions, and even marketplaces for buying, selling, or auctioning off Sanderson collectibles. It’s never too late to start collecting!</p>
+                    <p><a id="link" href="https://discord.com/invite/scg" target="_blank">Join the discord here: https://discord.gg/scg</a></p>
+                    
                     <h4 id="sub-catigory">SCG Facebook Group</h4>
-                    <p>stuuuuuuuuuuuuuuuuuuuuuuuuuuuuffffffffffffff</p>
-                    <h4 id="sub-catigory">SCG Merch Store</h4>
-                    <p>stuuuuuuuuuuuuuuuuuuuuuuuuuuuuffffffffffffff</p>
+                    <p>Like with the Discord server, the Sanderson Collectors Guild Facebook group provides a space for collectors to interact and transact with each other.</p>
+                    <p><a id="link" href="https://www.facebook.com/groups/178287579749175" target="_blank">Join the Facebook group here: https://www.facebook.com/groups/178287579749175</a></p>
+                    
                     <h2 id="projects_title">Past Projects</h2>
+                    
                     <h4 id="sub-catigory">The Night Brigade (2023) and Sunlit Fans (2024)</h4>
-                    <p>stuuuuuuuuuuuuuuuuuuuuuuuuuuuuffffffffffffff</p>
+                    <p>One of the highlights of attending Dragonsteel Nexus for collectors is staying up all night in the line to receive a low-numbered book. In 2023, the Sanderson Collectors Guild organized "<a id="link" href="https://www.instagram.com/p/CzeoR_NSvQi/" target="_blank">The Night Brigade</a>" for fellow line participants. We paid for a coffee truck to come serve coffee, tea, and hot chocolate to fans from 2 AM until 6 AM. We also provided numbered buttons so people could easily recall their relative position in line.</p>
+                    <p>In 2024, when the line occurred mostly during the day, we organized “the Sunlit Fans” and again provided buttons to line participants.</p>
+                    
                     <h4 id="sub-catigory">Dragonsteel Nexus Ticket Escrow Service</h4>
-                    <p>stuuuuuuuuuuuuuuuuuuuuuuuuuuuuffffffffffffff</p>
+                    <p>Dragonsteel Nexus 2024 turned out to be an <span id="italic">extremely</span> popular event that sold out in under an hour, even while the ticketing site was under heavy load. Within the days following ticket sales, the Guild leadership immediately noticed scammers and scalpers popping up online trying to make a quick buck by either selling tickets at massively inflated prices or “selling” tickets they did not actually have.</p>
+                    <p>Community leaders quickly agreed that reselling tickets would only be allowed if they were listed for face value, but the Sanderson Collectors Guild went a step further and set up the <a id="link" href="https://www.reddit.com/r/brandonsanderson/comments/1ctpzmz/dragonsteel_nexus_ticket_escrow_service/">Dragonsteel Nexus Ticket Escrow Service</a>. Anyone hoping to purchase a ticket from a seller could contact the escrow service, who would serve as a neutral intermediary for facilitating the sale. It was <a id="link" href="https://www.reddit.com/r/brandonsanderson/comments/1h5ozs5/dsnx_ticket_escrow_service_final_results/" target="_blank">wildly successful</a>! By the time Dragonsteel Nexus 2024 started, the escrow service had helped over 3% of all convention attendees safely transact over $40,000 worth of tickets across 250+ transfers.</p>
 
                     <div id="donate_stuff">
                         <h3 id="donate_title">Donate to Us!</h3>
                         <p id="donation_paragraph">All donations are tax-deductible and 100% of all funds are used to fund our ongoing projects!</p>
                         <ul id="donation_links">
-                            <li>This will be PayPal</li>
-                            <li>This will be Stripe</li>
+                            <li><a id="link" href="https://www.paypal.com/donate/?hosted_button_id=F8B7FULZUXCC8" target="_blank">Donate via PayPal</a></li>
+                            <li><a id="link" href="https://donate.stripe.com/9B628r0F64ZQ91abvB93y00" target="_blank">Donate via Stripe</a></li>
+                            <li><a id="link" href="https://www.amazon.com/hz/wishlist/ls/1BBDQXQOJKISG/ref=hz_ls_biz_ex" target="_blank">Purchase from our Amazon Wishlist</a></li>
                         </ul>
                         <!-- Links to their PayPal and Stripe -->
                     </div>
@@ -152,5 +168,5 @@
     </body>
 </html>
 
-<!-- COMMENT COMMAND: SHIFT OPTION A -->
-<!-- Wrap Text: option Z -->
+<!-- Comment Command: Shift Option A -->
+<!-- Wrap Text: Option Z -->
