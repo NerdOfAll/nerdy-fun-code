@@ -44,14 +44,19 @@ a{
     padding: 3%;
 }
 
+#stanthomrtis{
+    width: 50%;
+    height: auto;
+}
+
 #merch_img{
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 
 
 #cute_baby_stan{
-    height: 150px;
+    height: 10%;
     width: auto;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
