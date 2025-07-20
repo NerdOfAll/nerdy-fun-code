@@ -10,15 +10,17 @@
 
 #booth_banner{
     width: 100%;
-    height: 200px;
+    height: auto;
 }
 #Top_Title{
     text-align: center;
     padding: 0%;
 }
-
 #slogan{
-    margin: 0%;
+    margin: 3%;
+    font-size: small;
+    text-align: center;
+    color: black;
 }
 
 #Image_and_Text{
@@ -34,28 +36,30 @@
     grid-template-columns: 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857%;
 }
 
-#bottom_half{
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-#slogan{
-    margin: 3%;
-    font-size: small;
-    text-align: center;
-    color: black;
-}
-#copyright{
-    margin: 3%;
-    font-size: small;
-    text-align: center;
-    color: grey;
-}
 a{
     text-decoration: none;
 }
+
 #img_link{
     padding: 3%;
+}
+
+#merch_img{
+    width: 300px;
+    height: auto;
+}
+
+
+#cute_baby_stan{
+    height: 150px;
+    width: auto;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#bottom_half{
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 #italic{
@@ -64,6 +68,13 @@ a{
 
 #link{
     color: #1a73e8;
+}
+
+#copyright{
+    margin: 3%;
+    font-size: small;
+    text-align: center;
+    color: grey;
 }
 
 .external-link svg {
