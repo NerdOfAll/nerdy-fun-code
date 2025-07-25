@@ -25,19 +25,34 @@
 }
 
 body{
-    background-color: rgb(255, 250, 245);
+    background-image: radial-gradient(rgb(255, 230, 198), white);
+    margin-left: 2%;
+    margin-right: 2%;
 }
+/*rgb(255, 230, 198)*/
+
 #Image_and_Text{
     border-bottom: 2px solid rgb(117, 117, 117);
 }
 
 #person_img{
-    width: 80px;
+    width: 60%;
     height: auto;
+    border-radius: 50%;
 }
 #the_people{
     display: grid;
     grid-template-columns: 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857%;
+    margin: 2%;
+}
+
+#person{
+    display: grid;
+    grid-template-rows: 30% 20% 50%;
+    grid-template-columns: 100%;
+    justify-content: center;
+    margin: 2%;
+
 }
 
 a{
@@ -65,6 +80,7 @@ p{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    text-wrap: wrap;
 }
 
 #img_link{
@@ -74,24 +90,34 @@ p{
 #stanthomrtis{
     width: 50%;
     height: auto;
+    border-radius: 20%;
 }
 
 #merch_img{
     width: 200px;
     height: auto;
+    border-radius: 30%;
 }
 
 
 #cute_baby_stan{
     height: 10%;
     width: auto;
-    -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+    border-radius: 30%;
 }
 
 #bottom_half{
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+#about_and_store_sections{
+    margin: 3%;
+}
+
+#project_section{
+    margin: 3%;
 }
 
 #italic{
