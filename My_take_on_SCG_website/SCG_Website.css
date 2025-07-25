@@ -3,6 +3,7 @@
     grid-template-columns: 85% 15%;
     position: sticky;
     top: 0;
+    flex-wrap: wrap;
     background-color: white;
     border: 2px solid black;
 }
@@ -43,14 +44,12 @@ body{
 #the_people{
     display: grid;
     grid-template-columns: 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857%;
+    flex-wrap: wrap;
     margin: 2%;
 }
 
 #person{
-    display: grid;
-    grid-template-rows: 30% 20% 50%;
-    grid-template-columns: 100%;
-    justify-content: center;
+    flex-wrap: wrap;
     margin: 2%;
 
 }
