@@ -44,8 +44,14 @@ body{
 #the_people{
     display: grid;
     grid-template-columns: 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857% 14.2857%;
-    flex-wrap: wrap;
     margin: 2%;
+}
+@media screen and (max-width: 800px) {
+    #the_people{
+        display: grid;
+        grid-template-columns: initial;
+        margin: 2%;
+    }
 }
 
 #person{
