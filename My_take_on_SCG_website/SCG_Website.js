@@ -38,6 +38,7 @@ function setup() {
   }
 }
 
+
 /* This will be for the rotating images of SCG merch */
 let goHereImages = ["https://store.sandersoncollectorsguild.com/cdn/shop/files/unisex-garment-dyed-heavyweight-t-shirt-black-front-6875a8ae5d21d.jpg?v=1752541371&width=1650", "https://store.sandersoncollectorsguild.com/cdn/shop/files/Pin_photo.jpg?v=1751516387&width=1650", "https://store.sandersoncollectorsguild.com/cdn/shop/files/all-over-print-recycled-unisex-zip-hoodie-white-front-6865f42c8b3f3.jpg?v=1751512120&width=1650"]
 let x = 0
@@ -50,4 +51,5 @@ function change() {
     let imageThing=document.getElementById("merch_img")
     imageThing.src=goHereImages[x]
 }
+
 setInterval(change, 5000)

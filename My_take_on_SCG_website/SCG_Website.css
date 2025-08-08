@@ -3,7 +3,6 @@
     grid-template-columns: 85% 15%;
     position: sticky;
     top: 0;
-    flex-wrap: wrap;
     background-color: white;
     border: 2px solid black;
 }
@@ -20,6 +19,7 @@
     margin: 3%;
     font-family: "Tangerine", cursive;
     font-weight: 400;
+    font-size: larger;
     font-style: normal;
     text-align: center;
     color: black;
@@ -30,13 +30,12 @@ body{
     margin-left: 2%;
     margin-right: 2%;
 }
-/*rgb(255, 230, 198)*/
 
 #Image_and_Text{
     border-bottom: 2px solid rgb(117, 117, 117);
 }
 
-#person_img{
+.person_img{
     width: 60%;
     height: auto;
 }
@@ -46,7 +45,7 @@ body{
     grid-template-columns: repeat(auto-fill, 100px);
 }
 
-#person{
+.person{
     flex-wrap: wrap;
     margin: 2%;
 }
@@ -97,10 +96,11 @@ p{
 
 
 #cute_baby_stan{
-    height: 10%;
+    height: 150px;
     width: auto;
     transform: scaleX(-1);
     border-radius: 30%;
+    padding-top: 3%;
 }
 
 #bottom_half{
@@ -126,7 +126,7 @@ p{
     font-style: italic;
 }
 
-#link{
+.link{
     color: #1a73e8;
 }
 
