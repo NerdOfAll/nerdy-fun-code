@@ -42,9 +42,8 @@ body{
 }
 #the_people{
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 7%;
     grid-template-columns: repeat(auto-fill, 100px);
-    margin: 2%;
 }
 
 #person{
