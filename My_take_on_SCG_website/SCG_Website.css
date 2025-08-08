@@ -48,13 +48,15 @@ body{
 }
 @media screen and (max-width: 800px) {
     #the_people{
-        display: grid;
+        display: flex;
         grid-template-columns: initial;
+        flex-wrap: wrap;
         margin: 2%;
     }
 }
 
 #person{
+    display: flex;
     flex-wrap: wrap;
     margin: 2%;
 
