@@ -37,9 +37,8 @@ body{
 }
 
 #person_img{
-    width: 60%;
+    width: 40%;
     height: auto;
-    border-radius: 50%;
 }
 #the_people{
     display: grid;
@@ -54,9 +53,7 @@ body{
         margin: 2%;
     }
 }
-
 #person{
-    display: flex;
     flex-wrap: wrap;
     margin: 2%;
 
